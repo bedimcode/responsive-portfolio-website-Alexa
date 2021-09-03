@@ -237,8 +237,86 @@ img{
 
 
 /*==================== HOME ====================*/
+.home__container{
+    gap: 1rem;
+}
 
+.home__content{
+    grid-template-columns: .5fr 3fr;
+    padding-top: 3.5rem;
+    align-items: center;
+}
 
+.home__social{
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+}
+
+.home__social-icon{
+    font-size: 1.25rem;
+    color: var(--first-color);
+}
+
+.home__social-icon:hover{
+    color: var(--first-color-alt);
+}
+
+.home__blob{
+    width: 200px;
+    fill: var(--first-color);
+}
+
+.home__blob-img{
+    width: 193px;
+}
+
+.home__data{
+    grid-column: 1/3;
+}
+
+.home__title{
+    font-size: var(--big-font-size);
+}
+
+.home__subtitle{
+    font-size: var(--h3-font-size);
+    color: var(--text-color);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-75);
+}
+
+.home__description{
+    margin-bottom: var(--mb-2);
+}
+
+.home__scroll{
+    /* display: none; */
+}
+
+.home__scroll-button{
+    color: var(--first-color);
+    transition: .3s;
+}
+
+.home__scroll-button:hover{
+    transform: translateY(.25rem);
+}
+
+.home__scroll-mouse{
+    font-size: 2rem;
+}
+
+.home__scroll-name{
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-right: var(--mb-0-25);
+}
+
+.home__scroll-arrow{
+    font-size: 1.25rem;
+}
 /*==================== BUTTONS ====================*/
 
 
