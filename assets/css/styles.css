@@ -1046,7 +1046,6 @@ img{
     .about__container,
     .portfolio__content,
     .project__container,
-    .contact__container,
     .footer__container{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1242,9 +1241,6 @@ img{
         bottom: -4.5rem;
     }
 
-    .contact__form{
-        width: 460px;
-    }
     .contact__inputs{
         grid-template-columns: repeat(2, 1fr);
     }
