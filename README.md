@@ -1,13 +1,21 @@
-# Responsive Portfolio Website Alexa
-## [Watch it on youtube](https://youtu.be/27JtRAI3QO8)
-### Responsive Portfolio Website Alexa
+# Portfolio
 
-- Responsive Personal Portfolio Website Using HTML CSS & JavaScript
-- Smooth scrolling in each section.
-- Includes a light and dark mode.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+This is a `React` portfolio build from this [head](https://github.com/bedimcode/responsive-portfolio-website-Alexa)
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
+### Getting Started
 
-![preview img](/preview.png)
+1. Make changes to [config file](./src/config/Config.tsx)
+
+2. Change images from [images folder](./src/config/assets/images)
+
+
+### Change Log
+
+1. Use of `swiper js` for **react** instead of `cdn`
+2. Separation of sections based on *content*
+3. [CSS change log]()
+
+
+### Issues
+
+1. Refer [this](https://github.com/pratikkabade/reactPortfolio/issues/1) for current issues

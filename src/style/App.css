@@ -1,0 +1,72 @@
+.github {
+    color: #fff;
+    background-color: black !important;
+}
+
+main {
+    background-color: black !important;
+}
+
+.skills__list {
+    margin-bottom: 20px !important;
+}
+
+.skills__header {
+    margin-top: 60px !important;
+}
+
+.portfolio__content {
+    padding: 50px;
+}
+
+.skills__100 {
+    width: 100%;
+}
+
+.skills__90 {
+    width: 90%;
+}
+
+.skills__80 {
+    width: 80%;
+}
+
+.skills__70 {
+    width: 70%;
+}
+
+.skills__60 {
+    width: 60%;
+}
+
+.skills__50 {
+    width: 50%;
+}
+
+.skills__40 {
+    width: 40%;
+}
+
+.skills__30 {
+    width: 30%;
+}
+
+.skills__20 {
+    width: 20%;
+}
+
+.skills__10 {
+    width: 10%;
+}
+
+#scroll-up {
+    height: 25px;
+    cursor: pointer;
+    border: none !important;
+    width: 25px;
+}
+
+.move_i:hover i {
+    /* more to right */
+    transform: translateX(5px);
+}
