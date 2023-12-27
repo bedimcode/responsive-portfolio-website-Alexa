@@ -64,7 +64,7 @@ pipeline {
             mail(
                 to: 'sp20-bcs-048@cuiatk.edu.pk',
                 subject: "Failed Pipeline: ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
-                body: "Something is wrong with the build ${env.BUILD_URL}"
+                body: "Something is wrong with the Build ${env.BUILD_URL}"
             )
         }
     }
