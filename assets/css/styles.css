@@ -271,12 +271,16 @@ img {
 }
 
 .home__blob{
-  width: 200px;
+  width: 200;
   fill: var(--first-color);
 }
 
+.home__blob:hover{
+  fill: var(--first-color-alt);
+}
+
 .home__blob-img{
-  width: 170px;
+  width: 200px;
 }
 
 .home__data{
