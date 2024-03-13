@@ -5,37 +5,211 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--==================== UNICONS ====================-->
-        
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
         
         <!--==================== SWIPER CSS ====================-->
         <link rel="stylesheet" href="">
         
         <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Responsive Portfolio Website</title>
+        <title>Portfolio Website</title>
     </head>
     <body>
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
-            
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Sirius Ganesh</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Services
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Portfolio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contact me
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
         </header>
 
         <!--==================== MAIN ====================-->
         <main class="main">
             <!--==================== HOME ====================-->
             <section class="home section" id="home">
-                
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/siriusganesh/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin"></i>
+                            </a>
+
+                            <a href="https://www.geekplus.com/en/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-briefcase"></i>
+                            </a>
+
+                            <a href="https://github.com/siriusganesh" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M43.3,-75.8C56.5,-67.5,67.6,-56.5,74.5,-43.4C81.4,-30.3,84.1,-15.2,82,-1.2C79.9,12.8,73.2,25.6,65.8,37.9C58.5,50.2,50.6,62,39.5,70.2C28.4,78.4,14.2,82.9,0.2,82.5C-13.7,82.1,-27.5,76.7,-41.6,70.3C-55.8,63.9,-70.4,56.5,-79.4,44.6C-88.5,32.7,-91.9,16.4,-91.2,0.4C-90.4,-15.5,-85.4,-30.9,-77.8,-45.3C-70.2,-59.7,-60,-73,-46.6,-81.1C-33.2,-89.3,-16.6,-92.4,-0.7,-91.1C15.1,-89.8,30.2,-84.1,43.3,-75.8Z" transform="translate(100 100)" />
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M43.3,-75.8C56.5,-67.5,67.6,-56.5,74.5,-43.4C81.4,-30.3,84.1,-15.2,82,-1.2C79.9,12.8,73.2,25.6,65.8,37.9C58.5,50.2,50.6,62,39.5,70.2C28.4,78.4,14.2,82.9,0.2,82.5C-13.7,82.1,-27.5,76.7,-41.6,70.3C-55.8,63.9,-70.4,56.5,-79.4,44.6C-88.5,32.7,-91.9,16.4,-91.2,0.4C-90.4,-15.5,-85.4,-30.9,-77.8,-45.3C-70.2,-59.7,-60,-73,-46.6,-81.1C-33.2,-89.3,-16.6,-92.4,-0.7,-91.1C15.1,-89.8,30.2,-84.1,43.3,-75.8Z" transform="translate(100 100)" />
+                                    
+                                    <image class="home__blob-img" x="-7" y="10" xlink:href="assets/img/profile-removebg-preview.png"/>
+                                </g>
+                            </svg>
+                            
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'm Sirius</h1>
+                            <h3 class="home__subtitle">Aspiring MBA candidate</h3>
+                            <p class="home__description">I am a versatile Systems Consultant with a Bachelor of Science in Engineering Mechanics, specializing in software and mobile robotics solutions, adept at managing projects, enhancing software offerings, and delivering value-added solutions while leveraging diverse expertise and experiences gained from living and studying in five countries and speaking four languages.</p>
+                            <a href="#contact" class="button button--flex">
+                                Contact Me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-scroll home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
             </section>
 
             <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
-                
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My introduction</span>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/about.jpg" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <p class="about__description">11111 - The quick brown fox jumps over the lazy dog
+
+                            <div class="about__info">
+                                <div>
+                                    <span class="about__info-title">1+</span>
+                                    <span class="about__info-name">Years <br> experience</span>
+                                </div>
+
+                                <div>
+                                    <span class="about__info-title">2+</span>
+                                    <span class="about__info-name">Completed <br> project</span>
+                                </div>
+
+                                <div>
+                                    <span class="about__info-title">3+</span>
+                                    <span class="about__info-name">Companies <br> worked</span>
+                                </div>
+                            </div>
+
+                            <div class="about__buttons">
+                                <a download="" href="assets/pdf/Sirius_Ganesh_Resume.pdf" class="button button--flex">
+                                    Download Resume<i class="uil uil-download-alt button__icon"></i>
+                                </a>
+                            </div>
+                        </p>
+                    </div>
+                </div>
             </section>
 
             <!--==================== SKILLS ====================-->
             <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My technical skill</span>
 
+                <div class="skills__container container grid">
+                    <div>
+                        <!--==================== SKILLS 1====================-->
+                        <div class="skills__content">
+                            <div class="skills__header">
+                                <i class="uil uil-robot skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Robotics Engineer</h1>
+                                    <span class="skills__subtitle">More than 3 years</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__number">3%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__html"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__number">2%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__css"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__number">1%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__js"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!--==================== QUALIFICATION ====================-->
@@ -81,6 +255,6 @@
         <script src=""></script>
 
         <!--==================== MAIN JS ====================-->
-        <script src=""></script>
+        <script src="assets/js/main.js"></script>
     </body>
 </html>

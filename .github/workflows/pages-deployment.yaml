@@ -1,0 +1,22 @@
+on: [push]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    name: Deploy to Cloudflare Pages
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      # Run your project's build step
+      # - name: Build
+      #   run: npm install && npm run build
+      - name: Publish
+        uses: cloudflare/pages-action@1
+        with:
+          apiToken: ${{ secrets.Ca8sCw60JlM2BzWFlLFCUk2bsokAXwWXcsr9a8jE }}
+          accountId: ${{ secrets.d1fa69247b6603c9f0ab854ecb5b7679 }}
+          projectName: portfolio-website # e.g. 'my-project'
+          directory: public # e.g. 'dist'
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
