@@ -1,86 +1,184 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tony Kimani portfolio - Aerospace Engineering Graduate & Aspiring Full Stack Developer."
+    />
+    <title>Tony Kimani | Portfolio</title>
 
-        <!--==================== UNICONS ====================-->
-        
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#home" class="nav__logo">Tony Kimani</a>
 
-        <title>Responsive Portfolio Website</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            
-        </header>
+        <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">☰</button>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                
-            </section>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+            <li><a href="#about" class="nav__link">About</a></li>
+            <li><a href="#skills" class="nav__link">Skills</a></li>
+            <li><a href="#projects" class="nav__link">Projects</a></li>
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                
-            </section>
+    <main>
+      <section class="hero section" id="home">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <p class="hero__eyebrow">Aerospace Engineering Graduate</p>
+            <h1 class="hero__title">Tony Kimani</h1>
+            <h2 class="hero__subtitle">Aspiring Full Stack Developer</h2>
+            <p class="hero__description">
+              Building clean, practical web applications while transitioning from engineering into software development.
+            </p>
 
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
+            <div class="hero__actions">
+              <a href="#projects" class="button">View Projects</a>
+              <a href="#contact" class="button button--ghost">Contact Me</a>
+            </div>
 
-            </section>
+            <ul class="hero__meta">
+              <li><strong>Focus:</strong> Full Stack Fundamentals</li>
+              <li><strong>Current Track:</strong> Python + Web Development</li>
+            </ul>
+          </div>
 
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
+          <aside class="hero__profile card">
+            <div class="image-placeholder image-placeholder--profile">
+              <p>Add profile picture here</p>
+            </div>
+            <p class="hero__profile-text">
+              Replace this placeholder with your photo in <code>assets/img/</code> and update the image source.
+            </p>
+          </aside>
+        </div>
+      </section>
 
-            </section>
+      <section class="section" id="about">
+        <div class="container narrow">
+          <p class="section__label">Overview</p>
+          <h2 class="section__title">About Me</h2>
+          <p class="section__text">
+            I am an Aerospace Engineering graduate with a strong interest in technology, problem-solving, and building practical digital solutions. As I transition into software development, I am focusing on full stack web development and strengthening my skills in Python, web technologies, and modern development workflows.
+          </p>
+          <p class="section__text">
+            My engineering background has helped me develop analytical thinking, discipline, and a structured approach to solving problems. I am now applying those same strengths to software development by building projects, learning continuously, and creating user-focused applications.
+          </p>
+        </div>
+      </section>
 
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
-            </section>
+      <section class="section" id="skills">
+        <div class="container">
+          <p class="section__label">Capabilities</p>
+          <h2 class="section__title">Skills</h2>
 
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                
-            </section>
+          <div class="skills__grid">
+            <article class="card">
+              <h3 class="card__title">Development</h3>
+              <ul class="card__list">
+                <li>Python</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Codex</li>
+              </ul>
+            </article>
 
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
+            <article class="card">
+              <h3 class="card__title">Engineering Tools</h3>
+              <ul class="card__list">
+                <li>CFD</li>
+                <li>SolidWorks</li>
+                <li>GasTurb</li>
+              </ul>
+            </article>
 
-            </section>
+            <article class="card">
+              <h3 class="card__title">Additional</h3>
+              <ul class="card__list">
+                <li>SEO</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
 
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
-            </section>
+      <section class="section" id="projects">
+        <div class="container">
+          <p class="section__label">Selected Work</p>
+          <h2 class="section__title">Projects</h2>
 
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
+          <div class="projects__grid">
+            <article class="project card">
+              <div class="image-placeholder image-placeholder--project">
+                <p>Project screenshot placeholder</p>
+              </div>
+              <h3 class="card__title">Poker Game in Python</h3>
+              <p class="project__description">
+                A Python-based game project focused on logic, rules handling, and clean command-flow implementation.
+              </p>
+              <a href="#" class="project__link" aria-label="Add project link">Add project link ↗</a>
+            </article>
 
-            </section>
-        </main>
+            <article class="project card">
+              <div class="image-placeholder image-placeholder--project">
+                <p>Project screenshot placeholder</p>
+              </div>
+              <h3 class="card__title">Personal Portfolio Website</h3>
+              <p class="project__description">
+                A clean, responsive portfolio website to present my profile, skills, and projects in a professional format.
+              </p>
+              <a href="#" class="project__link" aria-label="Add project link">Add project link ↗</a>
+            </article>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-         
-        </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        
+            <article class="project card">
+              <div class="image-placeholder image-placeholder--project">
+                <p>Project screenshot placeholder</p>
+              </div>
+              <h3 class="card__title">Wardrobe Web App</h3>
+              <p class="project__description">
+                A practical web app concept for organizing outfits and clothing items with a user-focused experience.
+              </p>
+              <a href="#" class="project__link" aria-label="Add project link">Add project link ↗</a>
+            </article>
+          </div>
+        </div>
+      </section>
 
-        <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+      <section class="section" id="contact">
+        <div class="container narrow">
+          <p class="section__label">Get In Touch</p>
+          <h2 class="section__title">Contact</h2>
+          <p class="section__text center">
+            I am open to internship and junior developer opportunities, collaboration, and tech conversations.
+          </p>
 
-        <!--==================== MAIN JS ====================-->
-        <script src=""></script>
-    </body>
+          <div class="contact__links card">
+            <a href="mailto:toniekimngash@gmail.com">Email: toniekimngash@gmail.com</a>
+            <a href="https://github.com/TonyKimani-eng" target="_blank" rel="noreferrer">GitHub: TonyKimani-eng</a>
+            <a href="https://www.linkedin.com/in/tonykimaninganga" target="_blank" rel="noreferrer">LinkedIn: tonykimaninganga</a>
+          </div>
+
+          <p class="contact__hint">You can add more contact links by duplicating an anchor inside this contact card.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__content">
+        <p>© <span id="year"></span> Tony Kimani</p>
+        <p>Built with clarity, consistency, and continuous learning.</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
